@@ -1,4 +1,5 @@
 Below is a sample README.md file for your JavaFX registration form project
+![image](https://github.com/user-attachments/assets/b4fe9d69-6a30-4dd9-b0d5-935387747ad1)
 # JavaFX Registration Form
 
 This project is a simple JavaFX-based registration form designed to demonstrate the use of JavaFX for building graphical user interfaces. The application includes basic functionality for user input validation and messages for registration success or failure.
@@ -93,10 +94,6 @@ Create a feature branch (git checkout -b feature-name).
 Commit your changes (git commit -m 'Add feature').
 Push to the branch (git push origin feature-name).
 Open a pull request.
-
-Example Screenshots
-
-![image](https://github.com/user-attachments/assets/b4fe9d69-6a30-4dd9-b0d5-935387747ad1)
 
 
 License
