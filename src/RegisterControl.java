@@ -28,7 +28,7 @@ public class RegisterControl implements Initializable {
     @FXML
     private TextField idcol;
     @FXML
-    private TextField coursecolcoursecol;
+    private TextField coursecol;
     @FXML
     private Label registerMsg;
 
@@ -46,6 +46,27 @@ public class RegisterControl implements Initializable {
 
     public void submitButton(ActionEvent event){
         if(idcol.getText().isBlank()){
+             DatabaseConnection connection=new DatabaseConnection();
+             Connection connectDB=connectNow.getConnection();
+
+             String id ="idcol";
+             String name="namecol";
+             String mobile="mobilecol";
+             String course="coursecol";
+
+             String insertField="INSERT INTO record(id,name,mobile,course) VALUES ('";
+             String insertValues=id+"','"+name+"','"+mobile+"','"+course + "')";
+             String insertRegister=insertField+insertValues;
+
+             try{
+                 Statement statement=connectDB.createStatement();
+                 statement.executeUpdate(insertRegister);
+             }catch (Exception e){
+                 e.printStackTrace();
+                 e.getCause();
+             }
+
+
             registerMsg.setText(" Not Sucesfuly");
         }
         else {
