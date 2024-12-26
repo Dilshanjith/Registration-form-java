@@ -94,6 +94,11 @@ Commit your changes (git commit -m 'Add feature').
 Push to the branch (git push origin feature-name).
 Open a pull request.
 
+Example Screenshots
+
+![image](https://github.com/user-attachments/assets/b4fe9d69-6a30-4dd9-b0d5-935387747ad1)
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for more details
 
