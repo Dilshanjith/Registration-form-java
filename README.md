@@ -43,9 +43,12 @@ java Main
 File Structure
 
 src/
-├── Main.java             # Main application entry point
-├── register.fxml         # UI layout defined in FXML
+├── Main.java   
+# Main application entry point
+├── register.fxml
+# UI layout defined in FXML
 ├── controller/
+
 │   └── RegisterController.java # Handles user interactions
 
 Code Overview
